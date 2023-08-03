@@ -1,9 +1,11 @@
 import React from 'react';
 import projectImg from "../assets/img/user1.png";
+import Layout from './Layout';
 
 function Projects() {
   return (
-    <section className="section4 flex" id="projects">
+    <Layout>
+      <section className="section4 flex" id="projects">
     <h2 className="title">My Recent Work</h2>
     <div className="projects-container grid">
       <div className="project-card">
@@ -63,6 +65,7 @@ function Projects() {
       </div>
     </div>
   </section>
+    </Layout>
   )
 }
 

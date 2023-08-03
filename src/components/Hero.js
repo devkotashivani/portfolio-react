@@ -1,9 +1,12 @@
 import React from 'react'
 import user1Img from "../assets/img/user1.png";
+import Header from './Header';
+import Layout from './Layout';
 
 function Hero() {
   return (
     <div>
+      <Layout>
     <section className="section1" id="header">
     <div className="hero grid">
       <div className="left flex">
@@ -60,6 +63,7 @@ function Hero() {
             </div>
           </div>
         </section>
+        </Layout>
   </div>
   )
 }
